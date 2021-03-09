@@ -1,0 +1,14 @@
+port = "COM4";
+command = "F100"
+commandTerminator = "\r";
+answerTermiantor = "\n"
+mmc.setSerialPortCommand(port, command, commandTerminator);
+
+answer = mmc.getSerialPortAnswer(port, answerTerminator);
+
+command = "D050"
+commandTerminator = "\r";
+answerTermiantor = "\n"
+mmc.setSerialPortCommand(port, command, commandTerminator);
+
+answer = mmc.getSerialPortAnswer(port, answerTerminator);
