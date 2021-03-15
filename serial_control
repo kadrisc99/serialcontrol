@@ -1,4 +1,5 @@
-port = "COM4";
+port = "COM4";   // Need to change
+
 command = "F100"
 commandTerminator = "\r";
 answerTermiantor = "\n"
